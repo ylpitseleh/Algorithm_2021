@@ -31,7 +31,7 @@ public class 조이스틱 {
     JBAN = Math.min(3, 3)
     ex) JBCAAAN
     1) 그냥 -> 순서대로 세기
-    name.length() - 1 = 6
+    name.length() - 1 = 6 
     2) 뒤로가서 세기
     (name.length()-1) - 연속된 A 길이 + (연속된 A가 나오기 전까지 길이-1) = 5
     */
