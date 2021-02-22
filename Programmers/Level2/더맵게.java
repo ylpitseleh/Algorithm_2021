@@ -2,7 +2,12 @@ package Programmers.Level2;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
-
+/*
+☆☆☆☆☆
+cheat: X
+0H 15M
+Easy
+*/
 public class 더맵게 {
   public static void main(String[] args) {
     //int scoville[] = {1, 2, 3, 9, 10, 12};
