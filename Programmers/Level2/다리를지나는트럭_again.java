@@ -8,7 +8,7 @@ cheat: O
 시간이 지나면 다리에서 빠져나가게 하는걸 어떻게 해야할지 고민하다가 옛날에 푼거 참고했다.
 qEnterTime 존재만 힐끔하고 나머지는 내가 풀었당. 오래걸렸지만 ㅠㅠ
 */
-public class 다리를지나는트럭 {
+public class 다리를지나는트럭_again {
   public static void main(String[] args) {
     int truck_weights[] = {7, 4, 5, 6};
     int bridge_length = 2;

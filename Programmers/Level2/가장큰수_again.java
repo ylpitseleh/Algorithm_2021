@@ -10,7 +10,7 @@ cheat: O
 Comparable, Comparator를 잘 써보자!
 다음에 다시 풀기
 */
-public class 가장큰수 {
+public class 가장큰수_again {
   public static void main(String[] args) {
     int[] numbers = {6, 10, 2};
     String answer = "";

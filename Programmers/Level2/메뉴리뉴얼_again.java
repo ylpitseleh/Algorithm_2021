@@ -12,7 +12,7 @@ cheat: X
 조합을 구해야지! ex) 1, 2, 3 / 순서 O = (1, 2), (2, 1), (3, 1), (1, 3), (3, 2), (2, 3) / 순서 X = (1, 2), (1, 3), (2, 3)
 문제는 쉬운데 누가누가 구현 빨리하나 대결임. 이런거 빨리 풀 수 있도록 준비하자..
 */
-public class 메뉴리뉴얼 {
+public class 메뉴리뉴얼_again {
   public static void main(String[] args) {
     String[] orders = {"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"};
     int[] course = {2, 3, 4}; // 추가하고 싶어하는 코스요리를 구성하는 단품메뉴들의 개수

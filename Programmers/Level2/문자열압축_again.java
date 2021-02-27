@@ -7,7 +7,7 @@ cheat: X
 StringBuilder 쓰면 좀 더 간단하게 풀 수 있다. 마지막 원소가 equals연산에 포함이 안 돼서 짱구 굴리느라 힘들었다.
 굳이 배열에 다 안 넣고 sb로 바로 전 꺼랑 연산하면서 풀 수 있다...
 */
-public class 문자열압축 {
+public class 문자열압축_again {
   public static void main(String[] args) {
     //String s = "aabbaccc";
     String s = "a";
