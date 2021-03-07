@@ -37,7 +37,7 @@ public class 순열vs조합 {
       return ;
     }
     // start = 전에 끝난 것 보다 +1한 인덱스에서 시작해줘야 한다.
-    for (int i=depth; i<nums.length; i++) {
+    for (int i=start; i<nums.length; i++) {
       visited[i] = true;
       ans[depth] = nums[i];
       combi(depth+1, visited, nums, ans, i+1);
