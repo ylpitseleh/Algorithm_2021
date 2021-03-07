@@ -1,5 +1,10 @@
 package Programmers.Level2;
-
+/*
+☆☆☆☆☆
+cheat: X
+0H 10M
+Easy
+*/
 public class 땅따먹기 {
   public static void main(String[] args) {
     int[][] land = {{1,2,3,5},{5,6,7,8},{4,3,2,1}};
