@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 /*
-미완성. 나중에 다시 풀기
+시초가 해결이 안 돼.. 그냥 포기... 시간 아깝
 */
 public class 순위검색 {
   static int[][] cases = new int[16][4];
@@ -103,7 +103,7 @@ public class 순위검색 {
       System.out.print(answer[i]+" ");
     }
   }
-
+  // 16가지 경우의 수 만들기
   static int cnt = 0;
   private static void makeAllCases(int depth, int[] tmp) {
     if (depth == 4) {
@@ -118,7 +118,7 @@ public class 순위검색 {
     tmp[depth] = 0;
     makeAllCases(depth+1, tmp);
   }
-
+  // 이진 탐색
   private static int binarySearch(int target, ArrayList<Integer> scores) {
     int start = 0;
     int end = scores.size();
