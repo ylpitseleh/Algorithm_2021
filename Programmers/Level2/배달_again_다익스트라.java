@@ -15,7 +15,7 @@ cheat: O
 
 이해는 했다. 며칠뒤에 첨부터 다시 짜라고 한다면 ..?
 */
-public class 배달 {
+public class 배달_again_다익스트라 {
   static ArrayList<Pair>[] a;
 	static int d[]; // distance
 	static class Pair implements Comparable<Pair>{
